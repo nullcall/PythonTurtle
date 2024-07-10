@@ -6,12 +6,12 @@ t = turtle.Turtle()
 side = 3
   
 # Total Length of each side of the polygon to be drawn  
-lngth = 55 
+lngth = 100 
   
 for j in range(side):  
   t.forward(lngth)  
   t.right(360/side)  
 
 
-
+t.hideturtle()
 turtle.done()
